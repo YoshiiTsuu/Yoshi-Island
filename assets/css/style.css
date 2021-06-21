@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*zerando configuração navegador*/
+
+body {
+    background-image: url("https://media.discordapp.net/attachments/854768370889392148/855630109271785512/20893598785_0a7200ac49_b.png");
+}
+
+
+/*alterando fundo*/
+
+.margin {
+    height: 45px;
+}
+.margin-all img{
+    margin: 25px;
+}
+.margin-all iframe{
+        margin: 25px;
+    }
+.margin-r {
+    margin-right: 100px;
+}
+
+.margin-r-50 {
+    margin-right: 50px;
+}
+
+.margin-l {
+    margin-left: 50px;
+}
+.margin-l p span{
+    margin-left:20px;
+}
+.margin-li li a{
+    margin-left: 50px;
+}
+
+.margin-l strong {
+    margin-left: 10px;
+}
+
+.egg-config img {
+    width: 30px;
+    height: 30px;
+}
+.egg-config a img{
+    width: 30px;
+    height: 30px;
+}
+
+.egg-config li a img {
+    width: 30px;
+    height: 30px;
+}
+
+.txt-none li a {
+    text-decoration: none;
+}
+.contato label{
+    display: flex;
+    flex-direction: column;
+}
+.redes a{
+    margin-top: 20px;
+    margin-right: 20px;
+    display: inline;    
+}
+.redes{
+    margin-right: 250px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.font-size-30 {
+    font-size: 30px;
+}
+
+.font-size-24 {
+    font-size: 24px;
+}
+
+.flex-row li {
+    display: inline;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+.ml-30 a{
+    margin-left:15px;
+}
+
+.bg-menu {
+    background-color: rgba(141, 248, 212, 0.582);
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-end footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.margin-top{
+    margin-top:521px;
+}
+.margin-top50{
+    margin-top: 50px;
+}
+
+.margin-top10{
+    margin-top:10px;
+}
+.img-50 {
+    width: 1900px;
+    height: 206.235px;
+    margin: 50px 50px;
+}
+
+.bg-txt p {
+    background-color: rgba(240, 248, 255, 0.589);
+    line-height: 34px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.font-size- {
+    font-size: 50px;
+}
+
+.hover a:hover {
+    font-size: 40px;
+}
+
+.font-size-20 {
+    font-size: 15px;
+}
+.cep{
+    display: flex;
+    flex-direction: column;
+}

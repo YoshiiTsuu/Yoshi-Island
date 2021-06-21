@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="egg-config txt-none font-size-30 bg-menu margin hover margin-li">
+        <ul class="flex-row">
+
+            <li><a href=index.html>Home<img class="egg-config"
+                        src="https://media.discordapp.net/attachments/855637630912823327/855640153346146334/yoshiprofile.png"
+                        alt=""></a></li>
+
+
+            <li><a href="jogos.html">Jogos<img class="egg-config"
+                        src="https://media.discordapp.net/attachments/855637630912823327/855640153346146334/yoshiprofile.png"
+                        alt=""></a></li>
+        </ul>
+    </div>
+    <hr>
+    <div class="flex-center">
+        <h1>Me mande seu feedback!</h1>
+    </div>
+    <div class="flex-center">
+        <div class="contato">
+            <div>
+                <form>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" onkeyup='validaNome()'>
+                    <div id='txtNome'></div>
+                    <label for="e-mail">E-mail</label>
+                    <input type="email" id="email" onkeyup='validaEmail()'>
+                    <div id='txtEmail'></div>
+                    <label for="assunto">Sua mensagem!</label>
+                    <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+                    <div id='txtAssunto'></div>
+            </div>
+            <button onclick="enviar()">Enviar</button>
+            </form>
+        </div>
+        <div class="cep margin-l">
+            <strong>Mande-me coisinhas!</strong>
+            <iframe class='margin-top10' id='mapa' onmousemove="mapaZoom()" onmouseout="mapaNormal()"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3317.215536387134!2d150.60022731520732!3d-33.75509578068775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12883f97111b4b%3A0x72042424009f2705!2s42%20Rock%20Wallaby%20Way%2C%20Blaxland%20NSW%202774%2C%20Austr%C3%A1lia!5e0!3m2!1spt-BR!2sbr!4v1624249285866!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="margin-l">
+            <strong>Me acompanhe nas redes!</strong>
+            <div class="egg-config flex-center ml-30 margin-top10">
+                <a href="https://www.facebook.com.br" target="_blank"><img
+                        src="https://media.discordapp.net/attachments/854768370889392148/855635280300343336/20673.png"
+                        alt="logo facebook"></a>
+                <a href="https://www.twitter.com.br" target="_blank"><img
+                        src="https://media.discordapp.net/attachments/854768370889392148/855635482460422154/733635.png"
+                        alt="logo twitter"></a>
+                <a href="https://www.linkedin.com/" target="_blank"><img
+                        src="https://media.discordapp.net/attachments/854768370889392148/855635763609075732/121509.png"
+                        alt="logo linkedin"></a>
+            </div>
+        </div>
+    </div>
+    <div class="flex-end bg-menu font-size-20">
+        <hr class="margin-top">
+        <footer>
+            <span>Yoshi's Blog&trade; Desenvolvido por Yoshimitsu Miyahira - Todos direitos reservados.</a>
+            </span>
+            <p>Para posts patrocinados e parcerias comerciais, <a href=contato.html>clique aqui</a> . </p>
+            </p>
+            <p> For sponsored posts and commercial partnerships, <a href=contato.html>click here</a>.</p>
+        </footer>
+    </div>
+    <script src="/assets/js/script.js"></script>
+</body>
+
+</html>
